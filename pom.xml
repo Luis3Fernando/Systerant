@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ok.restaurante</groupId>
+    <artifactId>RESTAURANTE</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>org.netbeans.external</groupId>
+            <artifactId>AbsoluteLayout</artifactId>
+            <version>RELEASE140</version>
+        </dependency>
+        <dependency>
+            <groupId>UI_libreria</groupId>
+            <artifactId>Dinamica</artifactId>
+            <version>1.00</version>
+        </dependency>
+        <dependency>
+            <groupId>02</groupId>
+            <artifactId>jcommon</artifactId>
+            <version>1.0.23</version>
+            <type>jcommon</type>
+        </dependency>
+        <dependency>
+            <groupId>fr</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0.23</version>
+            <type>jar</type>
+            <classifier>jar</classifier>
+        </dependency>
+        <dependency>
+            <groupId>ew</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.19</version>
+            <type>jar</type>
+            <classifier>jar</classifier>
+        </dependency>
+    </dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <exec.mainClass>ok.restaurante.RESTAURANTE</exec.mainClass>
+    </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
+</dependency>
+
+    </dependencies>
+</project>
