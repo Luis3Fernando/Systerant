@@ -17,7 +17,6 @@ This project is powered by:
 
 - **Java** – The programming language used in the development.
 - **Eclipse IDE** - It is necessary to use this ide to use the program, you can also use Apache Netbeans.
----
 
 ## ⚙️ Installation
 
